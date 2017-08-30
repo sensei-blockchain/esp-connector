@@ -1,0 +1,39 @@
+{
+  "name": "esp-connector",
+  "version": "1.0.6",
+  "description": "`esp-connector` allows to add multiple ESPs to minimize email delivery failures.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 200000"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "replay": "^2.1.2",
+    "sinon": "^2.2.0"
+  },
+  "dependencies": {
+    "async": "^2.4.0",
+    "aws-sdk": "^2.53.0",
+    "email-validator": "^1.0.7",
+    "lodash": "^4.17.4",
+    "request": "^2.81.0",
+    "require-dir": "^0.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockchainj7458/esp-connector.git"
+  },
+  "keywords": [
+    "ses",
+    "sendgrid",
+    "mailgun",
+    "mandrill"
+  ],
+  "author": "Sensei Blocchain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blockchainj7458/esp-connector/issues"
+  },
+  "homepage": "https://github.com/blockchainj7458/esp-connector#readme"
+}
